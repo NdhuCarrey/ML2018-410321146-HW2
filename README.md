@@ -29,7 +29,10 @@ CNN model 中間建立了兩層池化層,共有16個7x7維度的影像個神經�
 將train data用CNN Model訓練後，得到的準確率為99.01%，將測test data代入後，得到的準確率為99.12%  
 ![Image I](https://github.com/NdhuCarrey/ML2018-410321146-HW2/blob/master/result/CNN%20acc.PNG?raw=true "cnn acc")  
 #### ACC & LOSS
-
+|     | Train ACC | Train LOSS | Test ACC | 
+|:---:|:---------:|:----------:|:--------:|
+| MLP | 0.9950    | 0.0150     | 0.9811   |  
+| CNN | 0.9901    | 0.0305     | 0.9912   |  
 ### Confusion Matrix
 #### MLP
 ![Image I](https://github.com/NdhuCarrey/ML2018-410321146-HW2/blob/master/result/MLP%20confusion%20matrix.PNG?raw=true "mlp cm")  
