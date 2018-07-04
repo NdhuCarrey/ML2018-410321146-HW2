@@ -34,3 +34,5 @@ CNN model 中間建立了兩層池化層,共有16個7x7維度的影像個神經�
 #### CNN
 ![Image I](https://github.com/NdhuCarrey/ML2018-410321146-HW2/blob/master/result/CNN%20confusion%20matrix.PNG?raw=true "cnn cm")  
 ### Discussion
+本次作業利用MLP及CNN的方式進行訓練，發現CNN的準確率稍微比MLP的準確率還高，訓練時間也比MLP還來的高許多。從Confusion Matrix中可發現其辨識結果，MLP對數字3的錯誤率較高，而CNN對數字8的錯誤率較高。  
+這次作業練習，學習到利用MLP及CNN的實作方式，能夠更加了解兩者的訓練內容不同。在進行CNN練習時，因還不夠了解CNN的輸入及Model架構，加上CNN訓練時間較長，因此在練習中進行較長時間的偵錯，最後訓練完畢後，兩者的準確率都有98%以上，希望下次練習時，可以使用不同的方法，或是修改目前的model及一些參數，提高其準確率。
